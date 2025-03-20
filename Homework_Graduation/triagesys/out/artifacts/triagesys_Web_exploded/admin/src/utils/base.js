@@ -9,7 +9,7 @@ const base = {
     },
     getProjectName(){
         return {
-            projectName: "医院分诊系统"
+            projectName: "基于智能体的儿科发热分诊对话系统"
         } 
     }
 }

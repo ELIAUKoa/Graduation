@@ -137,7 +137,7 @@
             <div :style='{"padding":"0 0 0 82px","boxShadow":"0 0 0px #6D4A70","margin":"10px auto","borderColor":"rgba(255, 255, 255, 1)","borderRadius":"8px","borderWidth":"0 0 1px 0","width":"80%","borderStyle":"dashed","height":"44px"}' class="form-item l-redio">
 				<input v-if="item.hasFrontLogin=='是'" v-for="(item,index) in menu" v-bind:key="index" type="radio" name="role" id="role" :value="item.tableName" :title="item.roleName">
             </div>
-			<button :style='{"padding":"0 10px","boxShadow":"0 0 0px #fff","margin":"20px auto 10px","borderColor":"#ccc","backgroundColor":"rgba(201, 165, 72, 1)","color":"#fff","borderRadius":"0","borderWidth":"0","width":"60%","fontSize":"18px","lineHeight":"1px","borderStyle":"solid","height":"44px"}' class="layui-btn layui-btn-fluid layui-btn-danger btn-submit" lay-submit lay-filter="login">登录</button>
+			<button :style='{"padding":"0 10px","boxShadow":"0 0 0px #fff","margin":"20px auto 10px","borderColor":"#ccc","backgroundColor":"rgba(100, 149, 237, 1)","color":"#fff","borderRadius":"0","borderWidth":"0","width":"60%","fontSize":"18px","lineHeight":"1px","borderStyle":"solid","height":"44px"}' class="layui-btn layui-btn-fluid layui-btn-danger btn-submit" lay-submit lay-filter="login">登录</button>
             <p :style='{"color":"rgba(201, 165, 72, 1)","textAlign":"center","fontSize":"12px"}' class="txt"><a style="color: inherit;font-size: inherit;" v-if="item.hasFrontRegister=='是'" v-for="(item,index) in menu" v-bind:key="index" :href="'javascript:registerClick(\''+item.tableName+'\')'">注册{{item.roleName.replace('注册','')}}</a></p>
         </form>
     </div>

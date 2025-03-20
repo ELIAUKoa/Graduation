@@ -4,7 +4,7 @@
 
       <div :class="2 == 1 ? 'left' : 2 == 2 ? 'left center' : 'left right'" style="backgroundColor: rgba(254, 255, 254, 0.83)">
         <el-form class="login-form" label-position="left" :label-width="3 == 3 ? '56px' : '0px'">
-          <div class="title-container"><h3 class="title" style="color: rgba(254, 190, 0, 1)">医院分诊系统登录</h3></div>
+          <div class="title-container"><h3 class="title" style="color: rgba(254, 190, 0, 1)">基于智能体的儿科发热分诊对话系统登录</h3></div>
           <el-form-item :label="3 == 3 ? '用户名' : ''" :class="'style'+3">
             <span v-if="3 != 3" class="svg-container" style="color:rgba(254, 190, 0, 1);line-height:44px"><svg-icon icon-class="user" /></span>
             <el-input placeholder="请输入用户名" name="username" type="text" v-model="rulesForm.username" />
